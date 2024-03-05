@@ -61,6 +61,7 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor")
     implementation("com.jakewharton.timber:timber:5.0.1")
     implementation("io.coil-kt:coil:2.5.0")
+    implementation("com.github.skydoves:landscapist-coil:2.3.2")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1")
     implementation("com.google.dagger:hilt-android:2.48.1")
