@@ -32,6 +32,7 @@ import com.skydoves.landscapist.coil.CoilImage
 @Composable
 fun PokemonCard(
     pokemon: Pokemon,
+    onClick: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
